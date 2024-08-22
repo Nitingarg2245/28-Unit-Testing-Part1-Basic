@@ -57,8 +57,6 @@ class CalculatorTest {
 /*The problem with beforeEach and afterEach is that they get executed with every  test means our object is creating
 again and again in the memory so beforeAll and afterAll is better approach they are used with static methods and
 we have to make the calculator variable static too
-Lets say we dont want to use beforeAll and afterAll and beforeEach and afterEach then we can sidha use
-*********************Calculator calculator = new Calculator();**************************** for the variable
 */
 class CalculatorTest {
 
